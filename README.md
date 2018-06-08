@@ -1,6 +1,11 @@
-# passportjs_hands-on
+# passportjs hands-on
 
-Hands on - NodeJS + PassportJS Authentication, following next references:
+Hands on - NodeJS + PassportJS Authentication,
+
+
+## passport - mongo
+
+This mini-project is based on next references:
 
 - [Autenticar Aplicaciones Node.js con Passport](https://code.tutsplus.com/es/tutorials/authenticating-nodejs-applications-with-passport--cms-21619)
 
@@ -10,4 +15,8 @@ Hands on - NodeJS + PassportJS Authentication, following next references:
 
 - [Understanding passport serialize deserialize](https://stackoverflow.com/questions/27637609/understanding-passport-serialize-deserialize)
 
-- [OAuth](https://en.wikipedia.org/wiki/OAuth)
+## jwt + passport
+
+This mini-project is based on next reference:
+
+- [Express, Passport and JSON Web Token (jwt) Authentication for Beginners](https://jonathanmh.com/express-passport-json-web-token-jwt-authentication-beginners/)
