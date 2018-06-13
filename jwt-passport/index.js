@@ -22,9 +22,10 @@ var users = [
   }
 ];
 
-var jwtOptions = {}
-jwtOptions.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
-jwtOptions.secretOrKey = 'Secret';
+var jwtOptions = {
+  jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken(),
+  secretOrKey = 'Secret'
+};
 
 var strategy = new JwtStrategy(jwtOptions, function(jwt_payload, next) {
   console.log('payload received', jwt_payload);

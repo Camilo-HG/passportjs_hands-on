@@ -1,3 +1,5 @@
 passport-mongo/node_modules
 passport-mongo/db
 jwt-passport/node_modules
+jwt-passport-mongo/node_modules
+jwt-passport-mongo/db
